@@ -3,53 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مهدی گفتار - دانلود آهنگ</title>
+    <title>Mehdi Goftar Music</title>
     <style>
         body {
-            background-color: #121212;
+            background-color: #181818;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
         }
-        a {
-            color: #fdd835;
-            text-decoration: none;
+        h1, h2 {
+            color: #FFD700;
         }
-        img {
+        .song-container {
+            margin: 20px 0;
+        }
+        .song-container img {
             width: 300px;
+            height: auto;
             border-radius: 10px;
-            margin-top: 10px;
+            cursor: pointer;
         }
-        audio {
+        .audio-player {
             margin-top: 10px;
-            width: 100%;
-            max-width: 300px;
         }
     </style>
 </head>
 <body>
-    <h1>مهدی گفتار</h1>
-    <p>برای بازدید از موزیک‌ها و شعرها به اینستاگرام مراجعه کنید:</p>
-    <a href="https://instagram.com/mehdigoftar" target="_blank">@mehdigoftar</a>
-
-    <h2>آهنگ لکنت</h2>
-    <p>روی تصویر کلیک کنید تا آهنگ را دانلود کنید.</p>
-    <a href="https://files.catbox.moe/jf9pvs.mp3" download>
-        <img src="https://i.postimg.cc/R39jcxC0/loknat-cover.jpg" alt="کاور آهنگ لکنت">
-    </a>
-    <audio controls>
-        <source src="https://files.catbox.moe/jf9pvs.mp3" type="audio/mpeg">
-        مرورگر شما از پخش آنلاین پشتیبانی نمی‌کند. <a href="https://files.catbox.moe/jf9pvs.mp3">دانلود کنید</a>.
-    </audio>
-
-    <h2>آهنگ قلم</h2>
-    <p>روی تصویر کلیک کنید تا آهنگ را دانلود کنید.</p>
-    <a href="https://files.catbox.moe/kyhbxi.mp3" download>
-        <img src="https://i.postimg.cc/R39jcxC0/ghalam-cover.jpg" alt="کاور آهنگ قلم">
-    </a>
-    <audio controls>
-        <source src="https://files.catbox.moe/kyhbxi.mp3" type="audio/mpeg">
-        مرورگر شما از پخش آنلاین پشتیبانی نمی‌کند. <a href="https://files.catbox.moe/kyhbxi.mp3">دانلود کنید</a>.
-    </audio>
+    <h1>Mehdi Goftar Loknat</h1>
+    <p>رپ اجتماعی، دلنوشته گفتار با همکاری استودیو 1970</p>
+    <p>@mehdigoftar</p>
+    
+    <div class="song-container">
+        <h2>آهنگ لکنت</h2>
+        <p>روی تصویر کلیک کنید تا آهنگ را دانلود کنید.</p>
+        <a href="https://files.catbox.moe/jf9pvs.mp3" download>
+            <img src="https://postimg.cc/R39jcxC0" alt="کاور آهنگ لکنت">
+        </a>
+        <audio class="audio-player" controls>
+            <source src="https://files.catbox.moe/jf9pvs.mp3" type="audio/mpeg">
+            مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+        </audio>
+    </div>
+    
+    <div class="song-container">
+        <h2>آهنگ قلم</h2>
+        <p>روی تصویر کلیک کنید تا آهنگ را دانلود کنید.</p>
+        <a href="https://files.catbox.moe/kyhbxi.mp3" download>
+            <img src="https://postimg.cc/R39jcxC0" alt="کاور آهنگ قلم">
+        </a>
+        <audio class="audio-player" controls>
+            <source src="https://files.catbox.moe/kyhbxi.mp3" type="audio/mpeg">
+            مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+        </audio>
+    </div>
 </body>
 </html>
